@@ -1,0 +1,14 @@
+﻿<Window x:Class="Launcher.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        ResizeMode="NoResize"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Launcher"
+        mc:Ignorable="d"
+        Title="Eternal Rift Launcher" Height="300" Width="500" >
+    <Grid>
+        <ProgressBar x:Name="progress_bar" Width="325" Height="20" VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="20, 20, 25, 35" Minimum="0" Maximum="100" Value="0"></ProgressBar>
+        <Button x:Name="button_1" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="20, 20, 20, 20" FontSize="12" Width = "100" Height ="50" Click="button1_click">Start</Button>
+    </Grid>
+</Window>
